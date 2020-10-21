@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Salesforce_login(failed)">
+    <classes>
+      <class name="LoginTest.successlogin">
+        <methods>
+          <include name="enterdetails"/>
+          <include name="loadPropertFile"/>
+          <include name="teardown"/>
+          <include name="setUp"/>
+          <include name="deletecookies"/>
+          <include name="deleteFailed"/>
+        </methods>
+      </class> <!-- LoginTest.successlogin -->
+    </classes>
+  </test> <!-- Salesforce_login(failed) -->
+</suite> <!-- Failed suite [Suite] -->

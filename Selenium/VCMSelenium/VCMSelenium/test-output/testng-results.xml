@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="37749" started-at="2020-08-01T08:03:39Z" finished-at="2020-08-01T08:04:17Z">
+    <groups>
+    </groups>
+    <test name="Salesforce_login" duration-ms="37749" started-at="2020-08-01T08:03:39Z" finished-at="2020-08-01T08:04:17Z">
+      <class name="LoginTest.successlogin">
+        <test-method status="PASS" signature="deleteFailed()[pri:0, instance:LoginTest.successlogin@1bb266b3]" name="deleteFailed" is-config="true" duration-ms="42" started-at="2020-08-01T08:03:39Z" finished-at="2020-08-01T08:03:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteFailed -->
+        <test-method status="PASS" signature="loadPropertFile()[pri:0, instance:LoginTest.successlogin@1bb266b3]" name="loadPropertFile" is-config="true" duration-ms="273" started-at="2020-08-01T08:03:39Z" finished-at="2020-08-01T08:03:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadPropertFile -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:LoginTest.successlogin@1bb266b3]" name="setUp" is-config="true" duration-ms="8274" started-at="2020-08-01T08:03:39Z" finished-at="2020-08-01T08:03:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="OpenApplication()[pri:1, instance:LoginTest.successlogin@1bb266b3]" name="OpenApplication" duration-ms="14701" started-at="2020-08-01T08:03:48Z" description="Launch salesforce website" finished-at="2020-08-01T08:04:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApplication -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:LoginTest.successlogin@1bb266b3]" name="teardown" is-config="true" duration-ms="10" started-at="2020-08-01T08:04:02Z" finished-at="2020-08-01T08:04:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OpenApplication status=SUCCESS method=successlogin.OpenApplication()[pri:1, instance:LoginTest.successlogin@1bb266b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="enterdetails()[pri:2, instance:LoginTest.successlogin@1bb266b3]" name="enterdetails" duration-ms="10874" started-at="2020-08-01T08:04:03Z" description="Enter login details" finished-at="2020-08-01T08:04:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterdetails -->
+        <test-method status="PASS" signature="deletecookies()[pri:0, instance:LoginTest.successlogin@1bb266b3]" name="deletecookies" is-config="true" duration-ms="3575" started-at="2020-08-01T08:04:13Z" finished-at="2020-08-01T08:04:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletecookies -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:LoginTest.successlogin@1bb266b3]" name="teardown" is-config="true" duration-ms="0" started-at="2020-08-01T08:04:13Z" finished-at="2020-08-01T08:04:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enterdetails status=SUCCESS method=successlogin.enterdetails()[pri:2, instance:LoginTest.successlogin@1bb266b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- LoginTest.successlogin -->
+    </test> <!-- Salesforce_login -->
+  </suite> <!-- Suite -->
+</testng-results>

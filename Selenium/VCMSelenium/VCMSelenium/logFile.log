@@ -1,0 +1,10 @@
+2020-08-01 13:33:39,690  INFO [main] TestNgAnnotations:53 - Suite begins
+2020-08-01 13:33:39,702  INFO [main] TestNgAnnotations:61 - EXECUTION OF TEST CASE BEGINS
+2020-08-01 13:33:48,218  INFO [main] TestNgAnnotations:86 - Driver is initialized
+2020-08-01 13:34:02,982  INFO [main] TestNgAnnotations:29 - Salesforce Application is opening
+2020-08-01 13:34:04,166  INFO [main] TestNgAnnotations:14 - username finding
+2020-08-01 13:34:06,189  INFO [main] TestNgAnnotations:44 - Entering username
+2020-08-01 13:34:13,000  INFO [main] TestNgAnnotations:50 - User successfully login to salesforce application with username and password
+2020-08-01 13:34:16,848  INFO [main] TestNgAnnotations:111 - 
+2020-08-01 13:34:16,848  INFO [main] TestNgAnnotations:112 - *******************************END OF TEST CASE*************************************
+2020-08-01 13:34:16,849  INFO [main] TestNgAnnotations:113 - 
